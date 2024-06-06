@@ -2,7 +2,7 @@
     "basics": {
         "name": "David Fernando Vargas Mejia",
         "label": "Desarrollador Backend",
-        "image": "/Users/macbookpro/Desktop/David/FotoHV.png",
+        "image": "./FotoHV.png",
         "email": "davidfvm2002@gmail.com",
         "phone": "(+57) 3015899959",
         "url": "https://johndoe.com",
@@ -15,11 +15,11 @@
             "region": "Cundinamarca"
         },
         "profiles": [{
-            "network": "Linkedin",
+            "network": "LinkedIn",
             "username": "David Fernando Vargas Mejia",
-            "url": "www.linkedin.com/in/david-fernando-vargas-mejía-b8977a23b"
+            "url": "https://www.linkedin.com/in/david-fernando-vargas-mejía-b8977a23b"
         },{
-            "network": "Github",
+            "network": "GitHub",
             "username": "DaviCodex",
             "url": "https://github.com/DaviCodex"
         }]
