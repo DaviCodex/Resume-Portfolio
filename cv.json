@@ -1,0 +1,122 @@
+{
+    "basics": {
+        "name": "David Fernando Vargas Mejia",
+        "label": "Desarrollador Backend",
+        "image": "/Users/macbookpro/Desktop/David/FotoHV.png",
+        "email": "davidfvm2002@gmail.com",
+        "phone": "(+57) 3015899959",
+        "url": "https://johndoe.com",
+        "summary": "Ingeniero en Automatización con habilidades en electrónica y diseño mecánico, especializado en desarrollo backend con frameworks Rails y Django. Conocimientos básicos de computación en la nube, apasionado por la tecnología y enfocado en desarrollar habilidades para automatizar software y mejorar su eficiencia.",
+        "location": {
+            "address": "Calle 3 #7-22",
+            "postalCode": "251201",
+            "city": "La Calera",
+            "countryCode": "COL",
+            "region": "Cundinamarca"
+        },
+        "profiles": [{
+            "network": "Linkedin",
+            "username": "David Fernando Vargas Mejia",
+            "url": "www.linkedin.com/in/david-fernando-vargas-mejía-b8977a23b"
+        },{
+            "network": "Github",
+            "username": "DaviCodex",
+            "url": "https://github.com/DaviCodex"
+        }]
+    },
+    "work": [{
+        "name": "Company",
+        "position": "President",
+        "url": "https://company.com",
+        "startDate": "2013-01-01",
+        "endDate": "2014-01-01",
+        "summary": "Description…",
+        "highlights": [
+            "Started the company"
+        ]
+    }],
+    "volunteer": [{
+        "organization": "Organization",
+        "position": "Volunteer",
+        "url": "https://organization.com/",
+        "startDate": "2012-01-01",
+        "endDate": "2013-01-01",
+        "summary": "Description…",
+        "highlights": [
+            "Awarded 'Volunteer of the Month'"
+        ]
+    }],
+    "education": [{
+        "institution": "Universidad Jorge Tadeo Lozano",
+        "url": "https://www.utadeo.edu.co/es",
+        "area": "Ingenieria en Automatización",
+        "studyType": "Profesional",
+        "startDate": "2020-07-17",
+        "endDate": "2024-11-17",
+        "score": "4.2",
+        "courses": [
+            "7NEJRNMMGDB9 - Atomation in the aws cloud",
+            "65BADD07BD - Learn JavaScript Course",
+            "649F91DBA9 - Learn Ruby Course",
+            "99b7cb6d-8a48-4110-93bb-b923c44dbb4b - Curso de Programación Orientada a Objetos: POO",
+            "3761dc63-3e1d-4cc8-a611-92a0b5f91bad - Curso de Introducción a la Terminal y Línea de Comandos"
+        ]
+    }],
+    "awards": [{
+        "title": "Award",
+        "date": "2023-5-15",
+        "awarder": "Universidad Jorge Tadeo Lozano",
+        "summary": "Primer Puesto en la categoria de desarrollo de software. Desarrollamos junto a mi equipo una aplicacion que combianaba dos modelos de vision computacional para la detección de rostros"
+    }],
+    "certificates": [{
+        "name": "Certificate",
+        "date": "2021-11-07",
+        "issuer": "Company",
+        "url": "https://certificate.com"
+    }],
+    "publications": [{
+        "name": "Publication",
+        "publisher": "Company",
+        "releaseDate": "2014-10-01",
+        "url": "https://publication.com",
+        "summary": "Description…"
+    }],
+    "skills": [{
+        "name": "Web Development",
+        "level": "Junior",
+        "keywords": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Ruby",
+            "Python"
+        ]
+    }],
+    "languages": [{
+        "language": "Inglés",
+        "fluency": "B1 "
+    },{ "language": "Español",
+        "fluency":"Nativo"
+    }],
+    "interests": [{
+        "name": "Musica",
+        "keywords": [
+            "Guitarra",
+            "Ukelele"
+        ]
+    }],
+    "references": [{
+        "name": "Jane Doe",
+        "reference": "Reference…"
+    }],
+    "projects": [{
+        "name": "Project",
+        "startDate": "2019-01-01",
+        "endDate": "2021-01-01",
+        "description": "Description...",
+        "highlights": [
+            "Won award at AIHacks 2016"
+        ],
+        "url": "https://project.com/"
+    }]
+}
