@@ -1,0 +1,39 @@
+---
+    import Section from "../Section.astro";
+    import { education } from "@cv";
+---
+<Section title="Courses">
+    <ul>
+        {education.map(({courses}) =>{
+            return(
+                <ul>
+                    {courses.map(course => (
+                        <li>
+                            <h3>{course}</h3>
+                        </li>
+                    ))}
+                </ul>
+            )
+        })}
+    </ul>
+</Section>
+<style>
+
+    ul{
+        list-style-type: disc;
+        display: flex;
+        flex-direction: column;
+        gap:28px;  
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    h3{
+        font-weight: 300;
+        color: #555;
+        font-size: 15px;
+    }
+
+</style>

@@ -5,6 +5,7 @@ import Mail from '@/icons/Mail.astro'
 import Phone from '@/icons/Phone.astro'
 import LinkedIn from '@/icons/LinkedIn.astro'
 import GitHub from '@/icons/GitHub.astro'
+import WorldMap from '@/icons/WorldMap.astro'
 
 
 
@@ -23,7 +24,7 @@ const SOCIAL_ICONS: Record<string, any> ={
             <h1>{name}</h1>
             <h2>{label}</h2> 
             <span>
-                <!--Faltan los iconos -->
+                <WorldMap/>
                 {city}, {region}
             </span>
             <footer>
@@ -42,7 +43,7 @@ const SOCIAL_ICONS: Record<string, any> ={
                 {
                     phone && (
                         <a  
-                            href={`tel:${email}`} 
+                            href={`tel:${phone}`} 
                             title={`llamar por telefono a ${name} al número ${phone}`}
                             target="_blank"
                             rel="noopener noreferrer "
@@ -75,5 +76,63 @@ const SOCIAL_ICONS: Record<string, any> ={
 </Section>
 
 <style>
-    
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .info{
+        display:flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding-right: 32px;
+    }
+    h1{
+        font-size: 2 rem; 
+    }
+    h2{
+        color:#444;
+        font-weight: 500; 
+        font-size: 1.1rem;
+        text-wrap: balance;
+    }
+    img{
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        width: 128px;
+        border-radius: 6px;
+    }
+    span{
+        color:#666;
+        display: flex;
+        align-items: center;
+        gap: .25rem;
+        font-size: .85rem;
+        letter-spacing: -0.05rem;
+    }
+    footer{
+        display: flex;
+        gap: 4px;
+        margin-top: 8px;
+    }
+    footer a{
+        color: #777;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #eee;
+        padding: 4px;
+        height: 32px;
+        width: 32px;
+        border border-radius: 6px;
+        transition: all .3s ease;
+    }
+    footer a:hover{
+        background: #eee;
+        border: 1px solid #ddd;
+
+    }
+
 </style>

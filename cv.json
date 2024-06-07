@@ -35,24 +35,37 @@
             "Started the company"
         ]
     }],
-    "volunteer": [{
-        "organization": "Organization",
-        "position": "Volunteer",
-        "url": "https://organization.com/",
-        "startDate": "2012-01-01",
-        "endDate": "2013-01-01",
-        "summary": "Description…",
+    "volunteer": [
+        {
+        "organization": "Universidad Jorge Tadeo Lozano",
+        "position": "Diseñador",
+        "url": "https://github.com/TadeoRoboticsGroup",
+        "startDate": "2023-04-17",
+        "endDate": "2023-05-17",
+        "summary": "Trabaje diseñando una plataforma capaz de disparar cacuchos, mediante el uso de servomotores, también desarrolle una aplicacion en la plataforma de Blynk IOT para el control de los motores mediante un aplicacion movil",
         "highlights": [
-            "Awarded 'Volunteer of the Month'"
+            "Reconocimiento 'Participacion en el reto ingenio 2023-1'"
         ]
-    }],
+    },
+    {
+        "organization": "Universidad Jorge Tadeo Lozano",
+        "position": "Desarrollador Python",
+        "url": "https://github.com/Danielokd/AI-Project-YOLO-DeepFace-Security-System",
+        "startDate": "2023-04-23",
+        "endDate": "2023-05-15",
+        "summary": "Junto a mi grupo desarrollamos una aplicacion que fucionaba dos modelo de vision compuatcional, para detectar personas conocidas dentro de una organización privada",
+        "highlights": [
+            "Reconocimiento 'Primer puesto en la categoria de desarrollo de software 2023-1'"
+        ]
+    }
+    ],
     "education": [{
         "institution": "Universidad Jorge Tadeo Lozano",
         "url": "https://www.utadeo.edu.co/es",
         "area": "Ingenieria en Automatización",
         "studyType": "Profesional",
         "startDate": "2020-07-17",
-        "endDate": "2024-11-17",
+        "endDate": null,
         "score": "4.2",
         "courses": [
             "7NEJRNMMGDB9 - Atomation in the aws cloud",
@@ -89,7 +102,8 @@
             "CSS",
             "JavaScript",
             "Ruby",
-            "Python"
+            "Python",
+            "Excel"
         ]
     }],
     "languages": [{
